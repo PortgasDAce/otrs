@@ -31,7 +31,7 @@ Provider:
       MappingInbound: {}
       MappingOutbound: {}
       Type: Ticket::TicketSearch
-	TicketDelete:
+    TicketDelete:
       Description: Deletes a Ticket
       MappingInbound: {}
       MappingOutbound: {}
