@@ -11,6 +11,11 @@ Provider:
       MappingInbound: {}
       MappingOutbound: {}
       Type: Session::SessionCreate
+	NtcgTicketCreate:
+      Description: Creates a Ticket
+      MappingInbound: {}
+      MappingOutbound: {}
+      Type: Ticket::NtcgTicketCreate
     TicketCreate:
       Description: Creates a Ticket
       MappingInbound: {}
