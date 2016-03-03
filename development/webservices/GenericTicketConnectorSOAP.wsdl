@@ -333,22 +333,18 @@
                         maxOccurs="1"
                         minOccurs="0">
                     </xsd:element>
-                    <xsd:choice
+                    <xsd:element
+                        name="TypeID"
+                        type="xsd:positiveInteger"
                         maxOccurs="1"
                         minOccurs="0">
-                        <xsd:element
-                            name="TypeID"
-                            type="xsd:positiveInteger"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                        <xsd:element
-                            name="Type"
-                            type="xsd:string"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                    </xsd:choice>
+                    </xsd:element>
+                    <xsd:element
+                        name="Type"
+                        type="xsd:string"
+                        maxOccurs="1"
+                        minOccurs="0">
+                    </xsd:element>
                     <xsd:choice
                         maxOccurs="1"
                         minOccurs="0">
