@@ -415,22 +415,18 @@
                         maxOccurs="1"
                         minOccurs="0">
                     </xsd:element>
-                    <xsd:choice
+                    <xsd:element
+                        name="ResponsibleID"
+                        type="xsd:positiveInteger"
                         maxOccurs="1"
                         minOccurs="0">
-                        <xsd:element
-                            name="ResponsibleID"
-                            type="xsd:positiveInteger"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                        <xsd:element
-                            name="Responsible"
-                            type="xsd:string"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                    </xsd:choice>
+                    </xsd:element>
+                    <xsd:element
+                        name="Responsible"
+                        type="xsd:string"
+                        maxOccurs="1"
+                        minOccurs="0">
+                    </xsd:element>
                     <xsd:element
                         name="CustomerUser"
                         type="xsd:string"
