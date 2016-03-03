@@ -357,22 +357,18 @@
                         maxOccurs="1"
                         minOccurs="0">
                     </xsd:element>
-                    <xsd:choice
+                    <xsd:element
+                        name="SLAID"
+                        type="xsd:positiveInteger"
                         maxOccurs="1"
                         minOccurs="0">
-                        <xsd:element
-                            name="SLAID"
-                            type="xsd:positiveInteger"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                        <xsd:element
-                            name="SLA"
-                            type="xsd:string"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                    </xsd:choice>
+                    </xsd:element>
+                    <xsd:element
+                        name="SLA"
+                        type="xsd:string"
+                        maxOccurs="1"
+                        minOccurs="0">
+                    </xsd:element>
                     <xsd:choice
                         maxOccurs="1"
                         minOccurs="1">
