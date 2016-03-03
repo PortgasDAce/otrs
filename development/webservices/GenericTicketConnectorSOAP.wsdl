@@ -427,6 +427,18 @@
                         type="tns:OTRS_PendingTime"
                         minOccurs="0">
                     </xsd:element>
+                    <xsd:element
+                        name="Lock"
+                        type="xsd:string"
+                        maxOccurs="1"
+                        minOccurs="0">
+                    </xsd:element>
+                    <xsd:element
+                        name="LockID"
+                        type="xsd:string"
+                        maxOccurs="1"
+                        minOccurs="0">
+                    </xsd:element>
                 </xsd:sequence>
             </xsd:complexType>
 			<xsd:complexType name="NTCG_TicketCreateResponse">
