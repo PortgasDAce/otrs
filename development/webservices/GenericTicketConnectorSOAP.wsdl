@@ -316,11 +316,6 @@
                         maxOccurs="1"
                         minOccurs="1">
                     </xsd:element>
-                    <xsd:annotation>
-                        <xsd:documentation>
-                            Queue or QueueID is mandatory
-                        </xsd:documentation>
-                    </xsd:annotation>
                     <xsd:element
                         name="QueueID"
                         type="xsd:positiveInteger"
@@ -369,11 +364,6 @@
                         maxOccurs="1"
                         minOccurs="0">
                     </xsd:element>
-                    <xsd:annotation>
-                        <xsd:documentation>
-                            State or StateID is mandatory
-                        </xsd:documentation>
-                    </xsd:annotation>
                     <xsd:element
                         name="StateID"
                         type="xsd:positiveInteger"
@@ -386,11 +376,6 @@
                         maxOccurs="1"
                         minOccurs="0">
                     </xsd:element>
-                    <xsd:annotation>
-                        <xsd:documentation>
-                            Priority or PriorityID is mandatory
-                        </xsd:documentation>
-                    </xsd:annotation>
                     <xsd:element
                         name="PriorityID"
                         type="xsd:positiveInteger"
