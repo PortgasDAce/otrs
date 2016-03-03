@@ -386,27 +386,23 @@
                         maxOccurs="1"
                         minOccurs="0">
                     </xsd:element>
-                    <xsd:choice
+                    <xsd:annotation>
+                        <xsd:documentation>
+                            Priority or PriorityID is mandatory
+                        </xsd:documentation>
+                    </xsd:annotation>
+                    <xsd:element
+                        name="PriorityID"
+                        type="xsd:positiveInteger"
                         maxOccurs="1"
-                        minOccurs="1">
-                        <xsd:annotation>
-                            <xsd:documentation>
-                                Priority or PriorityID is mandatory
-                            </xsd:documentation>
-                        </xsd:annotation>
-                        <xsd:element
-                            name="PriorityID"
-                            type="xsd:positiveInteger"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                        <xsd:element
-                            name="Priority"
-                            type="xsd:string"
-                            maxOccurs="1"
-                            minOccurs="0">
-                        </xsd:element>
-                    </xsd:choice>
+                        minOccurs="0">
+                    </xsd:element>
+                    <xsd:element
+                        name="Priority"
+                        type="xsd:string"
+                        maxOccurs="1"
+                        minOccurs="0">
+                    </xsd:element>
                     <xsd:choice
                         maxOccurs="1"
                         minOccurs="0">
